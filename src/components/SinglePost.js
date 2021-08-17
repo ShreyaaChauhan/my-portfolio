@@ -54,6 +54,7 @@ export default function SinglePost() {
               >
                 <img
                   src={urlFor(singlePost.authorImage).url()}
+                  alt ="authorImage"
                   style={{ verticalAlign: "middle" }}
                   className="w-10 h-10 rounded-full"
                 />
